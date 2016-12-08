@@ -1,0 +1,55 @@
+* {
+  font-family: 'Raleway', 'Avenir', sans-serif;
+  text-align: center;
+}
+
+nav {
+  height: 50px;
+  background-color:
+}
+
+.heroimage {
+  /* The image used */
+  background-image: url("./images/hero.jpg");
+   /*opacity: 0.5;*/
+  /* Set a specific height */
+  height: 500px;
+  margin: -10px;
+  z-index: 2000;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-heading {
+
+}
+
+.heading {
+
+}
+
+.button {
+  padding: 0.5em;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
+  position: inline-block;
+  border-radius: 5px;
+}
+
+.calltoaction {
+  padding: 0.5em;
+  background-color: #C6161F;
+  text-decoration: none;
+  color: white;
+  position: inline-block;
+  border-radius: 5px;
+}
+
+.description {
+  margin: 50px 300px 50px 300px;
+}
