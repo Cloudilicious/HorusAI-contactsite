@@ -1,14 +1,19 @@
 * {
+  margin: 0;
   font-family: 'Raleway', 'Avenir', sans-serif;
   text-align: center;
   line-height: 1.75em;
 }
 
+p {
+  margin-bottom: 1.75em;
+}
+
 nav {
-  height: 50px;
+  height: 4em;
   background-color: black;
   padding: 20px;
-  margin: -10px;
+  margin: -10px -25px -10px -25px;
 }
 
 .logo {
@@ -18,10 +23,12 @@ nav {
 .heroimage {
   /* The image used */
   background-image: url("./images/hero.jpg");
+  background-position: center;
    /*opacity: 0.5;*/
   /* Set a specific height */
-  height: 750px;
-  margin: -20px;
+  height: 700px;
+  height: calc(100vh - 4em);
+  margin: -25px;
   z-index: 2000;
 
   /* Create the parallax scrolling effect */
@@ -36,34 +43,62 @@ nav {
 }
 
 .heading {
-  padding-top: 200px;
+  padding-top: 30vh;
   color: white;
-  text-shadow: 20px, 20px, 20px, black;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin: 0 auto 0 auto;
+  max-width: 40em;
+  width: 90%;
 }
 
-.button {
-  padding: 0.5em;
+.subheading {
+  margin-bottom: 1.75em;
+}
+
+.button, .calltoaction {
+  padding: 0.7em;
+  margin: 10px;
   background-color: grey;
   text-decoration: none;
   color: white;
   position: inline-block;
   border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 1.2;
 }
 
 .calltoaction {
-  padding: 0.5em;
   background-color: #C6161F;
-  text-decoration: none;
-  color: white;
-  position: inline-block;
-  border-radius: 5px;
 }
 
 .description {
-  margin: 50px 300px 50px 300px;
+  /*margin: 50px 300px 50px 300px;*/
+  margin: 50px auto 50px auto;
+  max-width: 40em;
+  width: 90%;
+  font-size: 16px;
+
 }
 
-.sign-up {
-  width: 200px;
-  height: 50px;
+#keep-updated {
+  background-color: #FFEEEE;
+  height: 400px;
 }
+
+.email {
+  width: 450px;
+  height: 2em;
+  font-size: 16px;
+}
+
+.validate {
+  margin-bottom: 1.75em;
+}
+
+/*footer {
+  background-color: black;
+}*/
