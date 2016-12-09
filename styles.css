@@ -13,22 +13,22 @@ nav {
   height: 4em;
   background-color: black;
   padding: 20px;
-  margin: -10px -25px -10px -25px;
+  /*margin: -10px -25px -10px -25px;*/
 }
 
 .logo {
-  /*margin-top: -10px;*/
+  /*margin-top: 5px;*/
 }
 
 .heroimage {
   /* The image used */
-  background-image: url("./images/hero.jpg");
+  background-image: url("./images/hero2.jpg");
   background-position: center;
-   /*opacity: 0.5;*/
+  /*opacity: 0.5;*/
   /* Set a specific height */
   height: 700px;
   height: calc(100vh - 4em);
-  margin: -25px;
+  /*margin: -25px;*/
   z-index: 2000;
 
   /* Create the parallax scrolling effect */
@@ -38,9 +38,6 @@ nav {
   background-size: cover;
 }
 
-.hero-heading {
-
-}
 
 .heading {
   padding-top: 30vh;
@@ -54,7 +51,7 @@ nav {
 }
 
 .subheading {
-  margin-bottom: 1.75em;
+  margin-bottom: 1em;
 }
 
 .button, .calltoaction {
@@ -81,7 +78,6 @@ nav {
   max-width: 40em;
   width: 90%;
   font-size: 16px;
-
 }
 
 #keep-updated {
@@ -90,8 +86,8 @@ nav {
 }
 
 .email {
-  width: 450px;
-  height: 2em;
+  width: 300px;
+  height: 2.25em;
   font-size: 16px;
 }
 
