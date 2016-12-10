@@ -1,8 +1,8 @@
 * {
   margin: 0;
-  font-family: 'Raleway', 'Avenir', sans-serif;
   text-align: center;
   line-height: 1.75em;
+  font-family: 'Raleway', 'Avenir', sans-serif;
 }
 
 p {
@@ -41,13 +41,13 @@ nav {
 
 .heading {
   padding-top: 30vh;
-  color: white;
-  text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
-  font-size: 30px;
-  letter-spacing: 2px;
   margin: 0 auto 0 auto;
   max-width: 40em;
   width: 90%;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.75);
+  color: white;
 }
 
 .subheading {
@@ -55,17 +55,17 @@ nav {
 }
 
 .button, .calltoaction {
+  position: inline-block;
   padding: 0.7em;
   margin: 10px;
-  background-color: grey;
-  text-decoration: none;
-  color: white;
-  position: inline-block;
   border-radius: 5px;
   border: none;
   font-size: 16px;
   box-sizing: border-box;
   line-height: 1.2;
+  background-color: grey;
+  text-decoration: none;
+  color: white;
 }
 
 .calltoaction {
@@ -94,7 +94,3 @@ nav {
 .validate {
   margin-bottom: 1.75em;
 }
-
-/*footer {
-  background-color: black;
-}*/
